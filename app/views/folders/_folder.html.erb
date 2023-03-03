@@ -1,0 +1,8 @@
+<%= turbo_frame_tag folder do %>
+<section class="mb-4">
+  <h2><%= folder.title %></h2>
+
+  <p><%= folder.description %></p>
+  <p><%= link_to 'Edit', edit_folder_path(folder), class: 'btn btn-primary' %></p>
+</section>
+<% end %>
